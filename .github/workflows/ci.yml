@@ -2,7 +2,7 @@ on:
   push:
     branches:
       - main
-      - login-gcr.io # @note: use any development branch you would like
+      - dev # @note: use any development branch you would like
 
 jobs:
   build-and-push-to-gcr:
