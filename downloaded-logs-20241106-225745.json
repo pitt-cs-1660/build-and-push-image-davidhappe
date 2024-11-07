@@ -1,0 +1,2306 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:10f:4a00:4502:7e7d:db88:f5d4",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.BatchEnableServices",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/230155811834/services/artifactregistry.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/artifactregistry.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/services",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.BatchEnableServicesRequest",
+        "serviceIds": [
+          "artifactregistry.googleapis.com"
+        ],
+        "parent": "projects/evocative-tide-435322-n3"
+      }
+    },
+    "insertId": "1pmcuy5dkrij",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.BatchEnableServices",
+        "project_id": "evocative-tide-435322-n3",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-03T17:42:30.950198Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-230155811834-0e1efc99-c5d6-4741-a4a1-ab3e0433971a",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-03T17:42:31.840323704Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:10f:4a00:4502:7e7d:db88:f5d4",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/230155811834",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/230155811834/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/230155811834",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/230155811834/operations/acat.p2-230155811834-0e1efc99-c5d6-4741-a4a1-ab3e0433971a"
+    },
+    "insertId": "1es9v7hdnxm2",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "evocative-tide-435322-n3"
+      }
+    },
+    "timestamp": "2024-11-03T17:42:31.609691Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T17:42:32.024079931Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:10f:4a00:4502:7e7d:db88:f5d4",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.BatchEnableServices",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/230155811834/services/artifactregistry.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/artifactregistry.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/services",
+      "request": {
+        "parent": "projects/evocative-tide-435322-n3",
+        "serviceIds": [
+          "artifactregistry.googleapis.com"
+        ],
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.BatchEnableServicesRequest"
+      },
+      "response": {
+        "services": [
+          {
+            "name": "projects/230155811834/services/artifactregistry.googleapis.com",
+            "config": {
+              "name": "artifactregistry.googleapis.com",
+              "title": "Artifact Registry API"
+            },
+            "state": "ENABLED",
+            "parent": "projects/230155811834"
+          }
+        ],
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.BatchEnableServicesResponse"
+      }
+    },
+    "insertId": "cs58w1d3cs6",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "evocative-tide-435322-n3",
+        "method": "google.api.serviceusage.v1.ServiceUsage.BatchEnableServices"
+      }
+    },
+    "timestamp": "2024-11-03T17:42:33.311230086Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-230155811834-0e1efc99-c5d6-4741-a4a1-ab3e0433971a",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-03T17:42:33.311230086Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:10f:4a00:4502:7e7d:db88:f5d4",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/230155811834",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/230155811834/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/230155811834",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/230155811834/operations/acat.p2-230155811834-0e1efc99-c5d6-4741-a4a1-ab3e0433971a"
+    },
+    "insertId": "1lzwsghdlt5y",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "evocative-tide-435322-n3",
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-03T17:42:34.857738Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T17:42:35.193540104Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "34.139.98.9",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.create invocation-id/df0a43490b1c456882753896d22d3eb3 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T18:05:28.426436639Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1",
+          "permission": "artifactregistry.repositories.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1",
+      "request": {
+        "repositoryId": "cs1660a3",
+        "parent": "projects/evocative-tide-435322-n3/locations/us-central1",
+        "@type": "type.googleapis.com/google.devtools.artifactregistry.v1.CreateRepositoryRequest",
+        "repository": {
+          "name": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+          "format": "DOCKER"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1"
+        ]
+      }
+    },
+    "insertId": "1cleee8d3ib7",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "evocative-tide-435322-n3",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository"
+      }
+    },
+    "timestamp": "2024-11-03T18:05:28.419457899Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/evocative-tide-435322-n3/locations/us-central1/operations/6661e7bc-ed6c-4817-8ae0-a2f035a9a0e2",
+      "producer": "artifactregistry.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-03T18:05:29.427685842Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "service-agent-manager@system.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/evocative-tide-435322-n3",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/evocative-tide-435322-n3",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/evocative-tide-435322-n3",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/artifactregistry.serviceAgent",
+              "member": "serviceAccount:service-230155811834@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "resource": "230155811834",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "policy": {
+          "bindings": [
+            {
+              "members": [
+                "serviceAccount:service-230155811834@compute-system.iam.gserviceaccount.com"
+              ],
+              "role": "roles/compute.serviceAgent"
+            },
+            {
+              "members": [
+                "serviceAccount:230155811834-compute@developer.gserviceaccount.com",
+                "serviceAccount:230155811834@cloudservices.gserviceaccount.com"
+              ],
+              "role": "roles/editor"
+            },
+            {
+              "members": [
+                "user:davidhappe@pitt.edu"
+              ],
+              "role": "roles/owner"
+            },
+            {
+              "members": [
+                "serviceAccountId:115773931192609984793"
+              ],
+              "role": "roles/artifactregistry.serviceAgent"
+            }
+          ],
+          "etag": "BwYh3/JtjZw="
+        }
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy",
+        "bindings": [
+          {
+            "members": [
+              "serviceAccount:service-230155811834@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            ],
+            "role": "roles/artifactregistry.serviceAgent"
+          },
+          {
+            "members": [
+              "serviceAccount:service-230155811834@compute-system.iam.gserviceaccount.com"
+            ],
+            "role": "roles/compute.serviceAgent"
+          },
+          {
+            "members": [
+              "serviceAccount:230155811834-compute@developer.gserviceaccount.com",
+              "serviceAccount:230155811834@cloudservices.gserviceaccount.com"
+            ],
+            "role": "roles/editor"
+          },
+          {
+            "members": [
+              "user:davidhappe@pitt.edu"
+            ],
+            "role": "roles/owner"
+          }
+        ],
+        "etag": "BwYmBgNwrnc="
+      }
+    },
+    "insertId": "-12zcnte642mg",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "evocative-tide-435322-n3"
+      }
+    },
+    "timestamp": "2024-11-03T18:05:29.255059Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T18:05:29.800345886Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+      "response": {
+        "format": "DOCKER",
+        "name": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+        "@type": "type.googleapis.com/google.protobuf.Any",
+        "mode": "STANDARD_REPOSITORY",
+        "sbomConfig": {},
+        "description": "assignment 3",
+        "vulnerabilityScanningConfig": {
+          "lastEnableTime": "2024-11-03T18:05:28.446034892Z"
+        }
+      }
+    },
+    "insertId": "13ewj5zdnuz3",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "evocative-tide-435322-n3",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository"
+      }
+    },
+    "timestamp": "2024-11-03T18:05:37.240071802Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/evocative-tide-435322-n3/locations/us-central1/operations/6661e7bc-ed6c-4817-8ae0-a2f035a9a0e2",
+      "producer": "artifactregistry.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-03T18:05:37.794842356Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The parent resource is invalid."
+      },
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "34.139.98.9",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/f4c65113970243dc83325785182f3167 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T18:07:38.623844835Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1",
+      "request": {
+        "workloadIdentityPool": {
+          "displayName": "GitHub Action A3",
+          "disabled": false
+        },
+        "parent": "projects/evocative-tide-435322-n3/locations/us-central1",
+        "workloadIdentityPoolId": "github",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1"
+        ]
+      }
+    },
+    "insertId": "1y90j3pdlegw",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "evocative-tide-435322-n3",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool"
+      }
+    },
+    "timestamp": "2024-11-03T18:07:38.608939136Z",
+    "severity": "ERROR",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T18:07:38.958770513Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The parent resource is invalid."
+      },
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "34.139.98.9",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/a410996a33c447c8a76b651c47ba9ac4 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T18:13:10.715227965Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1",
+      "request": {
+        "workloadIdentityPoolId": "github",
+        "parent": "projects/evocative-tide-435322-n3/locations/us-central1",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest",
+        "workloadIdentityPool": {
+          "displayName": "GitHub Action A3",
+          "disabled": false
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1"
+        ]
+      }
+    },
+    "insertId": "n1ylxfdkm41",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "service": "iam.googleapis.com",
+        "project_id": "evocative-tide-435322-n3"
+      }
+    },
+    "timestamp": "2024-11-03T18:13:10.704905365Z",
+    "severity": "ERROR",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T18:13:10.811123048Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The parent resource is invalid."
+      },
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "34.139.98.9",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/62431fab9308460ab540c19bf6da5167 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T18:15:21.974654666Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1",
+      "request": {
+        "workloadIdentityPoolId": "cs1660a3",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest",
+        "workloadIdentityPool": {
+          "disabled": false,
+          "displayName": "GitHub Actions A3"
+        },
+        "parent": "projects/evocative-tide-435322-n3/locations/us-central1"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1"
+        ]
+      }
+    },
+    "insertId": "o5ewspdis4g",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "evocative-tide-435322-n3",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool"
+      }
+    },
+    "timestamp": "2024-11-03T18:15:21.966854529Z",
+    "severity": "ERROR",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T18:15:22.142310698Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The parent resource is invalid."
+      },
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "34.139.98.9",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/78fd3fa3dc704b6a9fe2f1a5089ae1cb environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T18:17:54.286518355Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1",
+      "request": {
+        "parent": "projects/evocative-tide-435322-n3/locations/us-central1",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest",
+        "workloadIdentityPoolId": "github",
+        "workloadIdentityPool": {
+          "displayName": "GitHub Action A3",
+          "disabled": false
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1"
+        ]
+      }
+    },
+    "insertId": "1jt1t61dl72j",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "evocative-tide-435322-n3",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-03T18:17:54.275139346Z",
+    "severity": "ERROR",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T18:17:54.695528557Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "34.139.98.9",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/dfaee3ce5e074b8791e477bd91eb32fc environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T18:19:16.544443737Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/global",
+      "request": {
+        "workloadIdentityPool": {
+          "displayName": "GitHub Action A3",
+          "disabled": false
+        },
+        "workloadIdentityPoolId": "github",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest",
+        "parent": "projects/evocative-tide-435322-n3/locations/global"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1jt1t61dl787",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "evocative-tide-435322-n3",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool"
+      }
+    },
+    "timestamp": "2024-11-03T18:19:16.535107496Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/230155811834/locations/global/workloadIdentityPools/github/operations/bifqrjp5t24qmehq6x7s600000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-03T18:19:17.704472435Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "resourceName": "projects/evocative-tide-435322-n3/locations/global",
+      "response": {
+        "name": "projects/230155811834/locations/global/workloadIdentityPools/github/operations/bifqrjp5t24qmehq6x7s600000000000",
+        "@type": "type.googleapis.com/google.longrunning.Operation"
+      }
+    },
+    "insertId": "-r5rvktd13gp",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "evocative-tide-435322-n3",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool"
+      }
+    },
+    "timestamp": "2024-11-03T18:19:17.101296Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/230155811834/locations/global/workloadIdentityPools/github/operations/bifqrjp5t24qmehq6x7s600000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-03T18:19:17.441407317Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Invalid attribute condition. [ERROR 'ERROR: <expression>:1:31: undeclared reference to 'davidhappe' (in container '')\n | assertion.repository_owner == davidhappe\n | ..............................^' at 30]"
+      },
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "34.139.98.9",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/7d268c4dcf5c4c66a1143e2a958ed8e9 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T19:07:37.650458353Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github",
+      "request": {
+        "workloadIdentityPoolProviderId": "cs1660a3",
+        "workloadIdentityPoolProvider": {
+          "disabled": false,
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeMapping": {
+            "attribute.repository": "assertion.repository",
+            "google.subject": "assertion.sub",
+            "attribute.repository_owner": "assertion.repository_owner",
+            "attribute.actor": "assertion.actor"
+          },
+          "displayName": "GitHub A3 provider",
+          "attributeCondition": "assertion.repository_owner == davidhappe"
+        },
+        "parent": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1xxciardk3xv",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "evocative-tide-435322-n3"
+      }
+    },
+    "timestamp": "2024-11-03T19:07:37.632998203Z",
+    "severity": "ERROR",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T19:07:37.843046213Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "34.139.98.9",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/3b14cd63d761442791b3c262fafe8e33 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T19:08:00.129011248Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github",
+      "request": {
+        "workloadIdentityPoolProviderId": "cs1660a3",
+        "parent": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProvider": {
+          "disabled": false,
+          "attributeCondition": "assertion.repository_owner == 'davidhappe'",
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "displayName": "GitHub A3 provider",
+          "attributeMapping": {
+            "google.subject": "assertion.sub",
+            "attribute.repository_owner": "assertion.repository_owner",
+            "attribute.repository": "assertion.repository",
+            "attribute.actor": "assertion.actor"
+          }
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "17clz00dkbik",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "evocative-tide-435322-n3"
+      }
+    },
+    "timestamp": "2024-11-03T19:08:00.111626123Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/230155811834/locations/global/workloadIdentityPools/github/providers/cs1660a3/operations/bigareeut64qmehyrh5zcaq000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-03T19:08:01.125648003Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/230155811834/locations/global/workloadIdentityPools/github/providers/cs1660a3/operations/bigareeut64qmehyrh5zcaq000000000"
+      }
+    },
+    "insertId": "dxi7u4c2ob",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "evocative-tide-435322-n3",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-11-03T19:08:00.575866Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/230155811834/locations/global/workloadIdentityPools/github/providers/cs1660a3/operations/bigareeut64qmehyrh5zcaq000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-03T19:08:01.305185064Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:3a00:2d86:78bc:e11c:5e12",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T19:26:15.994548448Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+      "request": {
+        "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1mksotkd12t0",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "evocative-tide-435322-n3",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-11-03T19:26:15.987668370Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T19:26:16.213579644Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:3a00:2d86:78bc:e11c:5e12",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T19:28:50.723645530Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "v3s9qod3oh7",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "evocative-tide-435322-n3",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-11-03T19:28:50.712018337Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T19:28:51.080248416Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:3a00:2d86:78bc:e11c:5e12",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T19:34:05.012797734Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+          "permission": "iam.workloadIdentityPoolProviders.update",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+      "request": {
+        "workloadIdentityPoolProvider": {
+          "disabled": false,
+          "attributeMapping": {
+            "attribute.repository_owner": "assertion.repository_owner",
+            "attribute.repository": "assertion.repository",
+            "google.subject": "assertion.sub",
+            "attribute.actor": "assertion.actor"
+          },
+          "name": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "displayName": "GitHub A3 provider",
+          "attributeCondition": "assertion.repository_owner == 'pitt-cs-1660'"
+        },
+        "@type": "type.googleapis.com/google.iam.v1.UpdateWorkloadIdentityPoolProviderRequest",
+        "updateMask": "displayName,disabled,attributeMapping,attributeCondition,oidc.issuerUri,oidc.allowedAudiences,oidc.jwksJson"
+      }
+    },
+    "insertId": "1xxciardk6wq",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "evocative-tide-435322-n3",
+        "method": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-11-03T19:34:04.994547485Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/230155811834/locations/global/workloadIdentityPools/github/providers/cs1660a3/operations/bifqrlnat64qmeeq5c6hi00000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-03T19:34:06.007806463Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+      "response": {
+        "name": "projects/230155811834/locations/global/workloadIdentityPools/github/providers/cs1660a3/operations/bifqrlnat64qmeeq5c6hi00000000000",
+        "@type": "type.googleapis.com/google.longrunning.Operation"
+      }
+    },
+    "insertId": "ofsievc22e",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "evocative-tide-435322-n3",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-11-03T19:34:05.245250Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/230155811834/locations/global/workloadIdentityPools/github/providers/cs1660a3/operations/bifqrlnat64qmeeq5c6hi00000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-03T19:34:05.409047352Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:3a00:2d86:78bc:e11c:5e12",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T19:36:36.047789819Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+      "request": {
+        "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "9g2t0qd5gdm",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "evocative-tide-435322-n3",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-11-03T19:36:36.035074509Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T19:36:36.941343910Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:3a00:2d86:78bc:e11c:5e12",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T19:41:30.398813398Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1h00ijcd5bkw",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "evocative-tide-435322-n3",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-03T19:41:30.388945329Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T19:41:30.795249310Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Invalid principal member (principal://iam.googleapis.com/projects/230155811834/locations/global/workloadIdentityPools/github/attribute.repository/cs1660a3)."
+      },
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:c000:7168:e63f:6989:95c2",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T19:44:11.063551465Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+      "request": {
+        "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      }
+    },
+    "insertId": "1mui82fd4244",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "evocative-tide-435322-n3"
+      }
+    },
+    "timestamp": "2024-11-03T19:44:11.054189625Z",
+    "severity": "ERROR",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T19:44:11.829149544Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:c000:7168:e63f:6989:95c2",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T19:44:37.435226712Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+      "request": {
+        "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "ak5jv6d3ppd",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "evocative-tide-435322-n3"
+      }
+    },
+    "timestamp": "2024-11-03T19:44:37.423053336Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T19:44:38.352419562Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The member principalSet://iam.googleapis.com/projects/230155811834/locations/us-central1/workloadIdentityPools/github/attribute.repository/cs1660a3 is of an unknown type. Please set a valid type prefix for the member."
+      },
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:c000:7168:e63f:6989:95c2",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T19:52:35.953875270Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3"
+      }
+    },
+    "insertId": "1ig5czyd1it3",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "evocative-tide-435322-n3"
+      }
+    },
+    "timestamp": "2024-11-03T19:52:35.945339940Z",
+    "severity": "ERROR",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T19:52:36.968429367Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:c000:7168:e63f:6989:95c2",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T19:55:45.772716656Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1fm10qcd5kvx",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "evocative-tide-435322-n3",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-03T19:55:45.763591567Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T19:55:46.273253321Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The member principal://iam.googleapis.com/projects/230155811834/locations/us-central1/workloadIdentityPools/github/attribute.repository/cs1660a3 is of an unknown type. Please set a valid type prefix for the member."
+      },
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:c000:7168:e63f:6989:95c2",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T20:06:06.305149301Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3"
+      }
+    },
+    "insertId": "10dyemtd1o7z",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "evocative-tide-435322-n3",
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-11-03T20:06:06.295634935Z",
+    "severity": "ERROR",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T20:06:06.955877046Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The member principalSet://iam.googleapis.com/projects/230155811834/locations/us-central1/workloadIdentityPools/github/attribute.repository/cs1660a3 is of an unknown type. Please set a valid type prefix for the member."
+      },
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:c000:7168:e63f:6989:95c2",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T20:06:19.484975892Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+      "request": {
+        "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      }
+    },
+    "insertId": "wi02hdd3xma",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "evocative-tide-435322-n3",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-03T20:06:19.479455127Z",
+    "severity": "ERROR",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T20:06:20.509326950Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Invalid principalSet member (principalSet://iam.googleapis.com/projects/230155811834/locations/global/workloadIdentityPools/github/subject/attribute.repository/cs1660a3)."
+      },
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:c000:7168:e63f:6989:95c2",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T20:08:00.015550903Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+      "request": {
+        "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      }
+    },
+    "insertId": "1huw2mcd5lqj",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "evocative-tide-435322-n3"
+      }
+    },
+    "timestamp": "2024-11-03T20:08:00.002176553Z",
+    "severity": "ERROR",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T20:08:00.485507922Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:c000:7168:e63f:6989:95c2",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T20:08:24.805279148Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1i5babxd3vu3",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "evocative-tide-435322-n3"
+      }
+    },
+    "timestamp": "2024-11-03T20:08:24.797089579Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T20:08:26.061867494Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:c000:7168:e63f:6989:95c2",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T20:08:42.184393961Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+      "request": {
+        "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "2imvqfd5d0w",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "evocative-tide-435322-n3"
+      }
+    },
+    "timestamp": "2024-11-03T20:08:42.174367382Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T20:08:43.223711944Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Invalid attribute condition. [ERROR 'ERROR: <expression>:1:21: token recognition error at: '=c'\n | assertion.repository=cs1660a3\n | ....................^' at 20, ERROR 'ERROR: <expression>:1:23: extraneous input 's1660a3' expecting <EOF>\n | assertion.repository=cs1660a3\n | ......................^' at 22]"
+      },
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:c000:7168:e63f:6989:95c2",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T20:12:03.672957378Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+          "permission": "iam.workloadIdentityPoolProviders.update",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.UpdateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProvider": {
+          "disabled": false,
+          "attributeMapping": {
+            "attribute.repository": "assertion.repository",
+            "attribute.repository_owner": "assertion.repository_owner",
+            "google.subject": "assertion.sub",
+            "attribute.actor": "assertion.actor"
+          },
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeCondition": "assertion.repository=cs1660a3",
+          "name": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+          "displayName": "GitHub A3 provider"
+        },
+        "updateMask": "displayName,disabled,attributeMapping,attributeCondition,oidc.issuerUri,oidc.allowedAudiences,oidc.jwksJson"
+      }
+    },
+    "insertId": "n1ylxfdkzpp",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "evocative-tide-435322-n3",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-11-03T20:12:03.653436840Z",
+    "severity": "ERROR",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T20:12:04.800743773Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:c000:7168:e63f:6989:95c2",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T20:12:14.092784421Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+          "permission": "iam.workloadIdentityPoolProviders.update",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.UpdateWorkloadIdentityPoolProviderRequest",
+        "updateMask": "displayName,disabled,attributeMapping,attributeCondition,oidc.issuerUri,oidc.allowedAudiences,oidc.jwksJson",
+        "workloadIdentityPoolProvider": {
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "displayName": "GitHub A3 provider",
+          "attributeCondition": "assertion.repository==\"cs1660a3\"",
+          "name": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+          "attributeMapping": {
+            "attribute.repository": "assertion.repository",
+            "attribute.repository_owner": "assertion.repository_owner",
+            "google.subject": "assertion.sub",
+            "attribute.actor": "assertion.actor"
+          },
+          "disabled": false
+        }
+      }
+    },
+    "insertId": "5uomi9dkxp4",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "evocative-tide-435322-n3",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-11-03T20:12:14.076022205Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/230155811834/locations/global/workloadIdentityPools/github/providers/cs1660a3/operations/bigarhvst64qmefqrsq54ai000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-03T20:12:14.532074970Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/230155811834/locations/global/workloadIdentityPools/github/providers/cs1660a3/operations/bigarhvst64qmefqrsq54ai000000000"
+      }
+    },
+    "insertId": "7ir8h8d1c29",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+        "project_id": "evocative-tide-435322-n3"
+      }
+    },
+    "timestamp": "2024-11-03T20:12:14.466747Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/230155811834/locations/global/workloadIdentityPools/github/providers/cs1660a3/operations/bigarhvst64qmefqrsq54ai000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-03T20:12:15.316782256Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:c000:7168:e63f:6989:95c2",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T20:14:51.574285600Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+          "permission": "iam.workloadIdentityPoolProviders.update",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+      "request": {
+        "workloadIdentityPoolProvider": {
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeMapping": {
+            "google.subject": "assertion.sub",
+            "attribute.actor": "assertion.actor",
+            "attribute.repository": "assertion.repository",
+            "attribute.repository_owner": "assertion.repository_owner"
+          },
+          "name": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+          "attributeCondition": "assertion.repository_owner==\"pitt-cs-1660\" && assertion.repository==\"cs1660a3\"",
+          "disabled": false,
+          "displayName": "GitHub A3 provider"
+        },
+        "updateMask": "displayName,disabled,attributeMapping,attributeCondition,oidc.issuerUri,oidc.allowedAudiences,oidc.jwksJson",
+        "@type": "type.googleapis.com/google.iam.v1.UpdateWorkloadIdentityPoolProviderRequest"
+      }
+    },
+    "insertId": "5uomi9dkxw8",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+        "project_id": "evocative-tide-435322-n3",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-03T20:14:51.560339087Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/230155811834/locations/global/workloadIdentityPools/github/providers/cs1660a3/operations/bigaro5tt64qmeeq2xkpmaq000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-03T20:14:52.550615624Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+      "response": {
+        "name": "projects/230155811834/locations/global/workloadIdentityPools/github/providers/cs1660a3/operations/bigaro5tt64qmeeq2xkpmaq000000000",
+        "@type": "type.googleapis.com/google.longrunning.Operation"
+      }
+    },
+    "insertId": "vyoaoccp7s",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com",
+        "project_id": "evocative-tide-435322-n3"
+      }
+    },
+    "timestamp": "2024-11-03T20:14:51.786554Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/230155811834/locations/global/workloadIdentityPools/github/providers/cs1660a3/operations/bigaro5tt64qmeeq2xkpmaq000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-03T20:14:51.881790699Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Invalid attribute mapping. [ERROR 'ERROR: <expression>:1:1: undeclared reference to 'cs1660a3' (in container '')\n | cs1660a3\n | ^' at 0]"
+      },
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:c000:7168:e63f:6989:95c2",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T20:16:10.432890775Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+          "permission": "iam.workloadIdentityPoolProviders.update",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+      "request": {
+        "workloadIdentityPoolProvider": {
+          "disabled": false,
+          "attributeMapping": {
+            "attribute.repository": "cs1660a3",
+            "google.subject": "assertion.sub",
+            "attribute.actor": "assertion.actor",
+            "attribute.repository_owner": "assertion.repository_owner"
+          },
+          "name": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+          "attributeCondition": "assertion.repository_owner==\"pitt-cs-1660\"",
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "displayName": "GitHub A3 provider"
+        },
+        "updateMask": "displayName,disabled,attributeMapping,attributeCondition,oidc.issuerUri,oidc.allowedAudiences,oidc.jwksJson",
+        "@type": "type.googleapis.com/google.iam.v1.UpdateWorkloadIdentityPoolProviderRequest"
+      }
+    },
+    "insertId": "n1ylxfdl07a",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "evocative-tide-435322-n3",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-11-03T20:16:10.416416556Z",
+    "severity": "ERROR",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T20:16:10.832957183Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:c000:7168:e63f:6989:95c2",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T20:16:24.574620779Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+          "permission": "iam.workloadIdentityPoolProviders.update",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+      "request": {
+        "workloadIdentityPoolProvider": {
+          "name": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+          "displayName": "GitHub A3 provider",
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "disabled": false,
+          "attributeMapping": {
+            "google.subject": "assertion.sub",
+            "attribute.repository_owner": "assertion.repository_owner",
+            "attribute.repository": "assertion.repository",
+            "attribute.actor": "assertion.actor"
+          },
+          "attributeCondition": "assertion.repository_owner==\"pitt-cs-1660\""
+        },
+        "@type": "type.googleapis.com/google.iam.v1.UpdateWorkloadIdentityPoolProviderRequest",
+        "updateMask": "displayName,disabled,attributeMapping,attributeCondition,oidc.issuerUri,oidc.allowedAudiences,oidc.jwksJson"
+      }
+    },
+    "insertId": "s1nzdldj09w",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+        "project_id": "evocative-tide-435322-n3"
+      }
+    },
+    "timestamp": "2024-11-03T20:16:24.557909769Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/230155811834/locations/global/workloadIdentityPools/github/providers/cs1660a3/operations/bigargfut64qmeeqrw23eay000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-03T20:16:25.333970715Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/evocative-tide-435322-n3/locations/global/workloadIdentityPools/github/providers/cs1660a3",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/230155811834/locations/global/workloadIdentityPools/github/providers/cs1660a3/operations/bigargfut64qmeeqrw23eay000000000"
+      }
+    },
+    "insertId": "y6loanc2cy",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com",
+        "project_id": "evocative-tide-435322-n3"
+      }
+    },
+    "timestamp": "2024-11-03T20:16:24.912189Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/230155811834/locations/global/workloadIdentityPools/github/providers/cs1660a3/operations/bigargfut64qmeeqrw23eay000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-03T20:16:25.027048653Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:c000:7168:e63f:6989:95c2",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T20:36:35.811637476Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "18g50r8d3yjb",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "evocative-tide-435322-n3"
+      }
+    },
+    "timestamp": "2024-11-03T20:36:35.801062737Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T20:36:36.464436079Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "davidhappe@pitt.edu",
+        "principalSubject": "user:davidhappe@pitt.edu"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:4041:100:c000:7168:e63f:6989:95c2",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T20:37:05.117099523Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+      "request": {
+        "resource": "projects/evocative-tide-435322-n3/locations/us-central1/repositories/cs1660a3",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "6f38h1d20fx",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "evocative-tide-435322-n3"
+      }
+    },
+    "timestamp": "2024-11-03T20:37:05.110264424Z",
+    "severity": "NOTICE",
+    "logName": "projects/evocative-tide-435322-n3/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T20:37:05.568137324Z"
+  }
+]

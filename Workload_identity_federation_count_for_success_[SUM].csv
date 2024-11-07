@@ -1,0 +1,9 @@
+TimeSeries ID,workload_identity_federation/count.iam.googleapis.com/WorkloadIdentityPoolProvider.ALIGN_RATE.REDUCE_SUM.metric.type="iam.googleapis.com/workload_identity_federation/count" resource.type="iam.googleapis.com/WorkloadIdentityPoolProvider" metric.label."result"="success".60s.pool_id:github.project_id:evocative-tide-435322-n3
+project_id,evocative-tide-435322-n3
+pool_id,github
+Sun Nov 03 2024 15:00:00 GMT-0500 (Eastern Standard Time),0.0011111111111111111
+Sun Nov 03 2024 16:00:00 GMT-0500 (Eastern Standard Time),0.0022222222222222222
+Sun Nov 03 2024 17:00:00 GMT-0500 (Eastern Standard Time),0.0011111111111111111
+Sun Nov 03 2024 21:00:00 GMT-0500 (Eastern Standard Time),0.0011111111111111111
+Wed Nov 06 2024 19:00:00 GMT-0500 (Eastern Standard Time),0.00003701913550411026
+Wed Nov 06 2024 20:00:00 GMT-0500 (Eastern Standard Time),0.001074091975607001
